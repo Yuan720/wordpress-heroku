@@ -11,7 +11,22 @@
  *
  * @var bool
  */
-define('WP_USE_THEMES', true);
+#define('WP_USE_THEMES', true);
 
 /** Loads the WordPress Environment and Template */
-require( dirname( __FILE__ ) . '/wp-blog-header.php' );
+#require( dirname( __FILE__ ) . '/wp-blog-header.php' );
+<?php
+echo <<<sa
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="utf-8"> 
+<title>yy</title> 
+</head>
+<body>
+
+<img src="yy.jpg">
+
+</body>
+</html> 
+sa;
